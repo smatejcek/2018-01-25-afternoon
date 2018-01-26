@@ -29,7 +29,7 @@ df.columns = ["age",
 "income"]
 
 df_test = pd.read_csv("adult.test.txt", skipinitialspace = True, skiprows = [0])
-df.columns = ["age",
+df_test.columns = ["age",
 "workclass",
 "fnlwgt",
 "education",
